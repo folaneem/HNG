@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.app__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.app__content img {
+    border-radius: 50px;
+    width: 88px;
+    height: 88px;
+}
+
+.app__container {
+    padding: 50px 100px;
+}
+
+.app__socials img {
+    margin: 4px 10px;
+    width: 25px;
+    height: 25px;
+}
+.app__icon__container{
+    position: relative;
+    padding-left: 80%;
+    bottom: 120px;
+}
+
+.app__icon{
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    flex: none;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .app__container {
+        padding: 0 20px;
+    }
+
+}
